@@ -1,2 +1,2 @@
-Programs and Indocators
+Programs and Indicators
 =======================
