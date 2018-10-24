@@ -8,7 +8,7 @@ The live system is available at `3pm.globalhealthapp.net`_.
 .. _3pm.globalhealthapp.net: https://3pm.globalhealthapp.net/
 
 .. note::
-   The test server is available on _`test.3pm.intellisoftkenya.com`_.
+   The test server is available on `test.3pm.intellisoftkenya.com`_.
 .. _test.3pm.intellisoftkenya.com: https://test.3pm.intellisoftkenya.com/
    Please use this for making test runs before you avail them on the live system.
 
