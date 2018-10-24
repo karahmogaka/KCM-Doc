@@ -5,7 +5,6 @@ System Access
 -------------
 The live system is available at `3pm.globalhealthapp.net`_
 
-.. _3pm.globalhealthapp.net: https://3pm.globalhealthapp.net
 
 .. note::
    The IP address is just a placeholder, 
