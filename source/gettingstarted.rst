@@ -3,7 +3,7 @@ Getting Started with 3PM
 
 System Access
 -------------
-The system can be accessed at IP address https://45.79.150.72.
+The live system is available at 3pm.globalhealthapp.net.
 
 .. note::
    The IP address is just a placeholder, 
