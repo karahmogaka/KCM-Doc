@@ -3,8 +3,9 @@ Getting Started with 3PM
 
 System Access
 -------------
-The live system is available at `3pm.globalhealthapp.net`
+The live system is available at `3pm.globalhealthapp.net`_.
 
+.. _a link: https://3pm.globalhealthapp.net/
 
 .. note::
    The IP address is just a placeholder, 
