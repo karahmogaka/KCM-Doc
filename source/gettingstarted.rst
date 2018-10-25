@@ -1,5 +1,5 @@
-Getting Started with 3PM
-========================
+Getting Started
+===============
 
 System Access
 -------------
