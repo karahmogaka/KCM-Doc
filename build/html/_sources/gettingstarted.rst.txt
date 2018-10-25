@@ -1,5 +1,5 @@
-Getting Started with 3PM
-========================
+Getting Started
+===============
 
 System Access
 -------------
@@ -11,7 +11,6 @@ The live system is available at `3pm.globalhealthapp.net`_.
     Please use this server for making test runs before you avail them on the live system. This is available on `test.3pm.intellisoftkenya.com`_.
 
 .. _test.3pm.intellisoftkenya.com: https://test.3pm.intellisoftkenya.com/
-
 
 Logging in
 ----------
@@ -31,7 +30,6 @@ Once logged in, the user can see their dashboard because this is the default lan
 
 .. note::
    More about dashboard is discussed under the Dashboard section.
-
 
 3PM Applications
 ----------------

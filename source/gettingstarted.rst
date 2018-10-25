@@ -12,7 +12,6 @@ The live system is available at `3pm.globalhealthapp.net`_.
 
 .. _test.3pm.intellisoftkenya.com: https://test.3pm.intellisoftkenya.com/
 
-
 Logging in
 ----------
 You are required to provide your username and password in order to access the system. The figure below is a screenshot of the start page/login page:
@@ -31,7 +30,6 @@ Once logged in, the user can see their dashboard because this is the default lan
 
 .. note::
    More about dashboard is discussed under the Dashboard section.
-
 
 3PM Applications
 ----------------
