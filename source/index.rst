@@ -8,10 +8,10 @@ Welcome to 3PM's documentation!
    gettingstarted
    datasets
    dataentry
+   dataapproval
    reports
+   usermanagement
    support
-
-
 
 Indices and tables
 ==================

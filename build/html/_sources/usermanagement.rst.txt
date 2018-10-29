@@ -1,56 +1,71 @@
 User Management
 =====================
 
-The User Management App in 3PM allows for multiiple users to access the system simultaneously - each with a defined set of permissions. These permissions can vary from allowing users who only enter data, to those who can generate reports. Several user roles can be created, each with their own set of permissions, and then assigned to users, who can access the system based on those roles. A user can access this module from the Apps Menu, by searching the Users App as shown:
+User Management feature in 3PM allows for multiiple users to access the system simultaneously. 
+Each user is given a defined set of authorities. 
+Examples of these authorities including data entry, performing data approval and deleting users. 
 
-.. figure:: /_static/img/SelectUsersApp.png
+These authorities are assigned to users through user roles. A user role is a set of defined authorities. 
+We have four user roles on 3PM as follows:
 
-		Figure : Search and select Users App
+#. Read Only - for viewing but not making any changes, addition or deletion of data.
+#. Data entry -  for monthly reporting through the datasets.
+#. Data Approval - for approving data entered per Implementing Mechanism.
+#. User Management - for creation, deletion and modification of users.
 
+The user management functionality is accessible through Users app;
 
-The procedure below shows the process of adding a new user and assigning them their relevant roles.
+.. figure:: /_static/img/users.jpg
 
-User Management Procedure
-~~~~~~~~~~~~~~~~
+		Figure : Users app
+
+Add user
+~~~~~~~~
+
+The pictorial below shows the process of adding a new user and assigning a user role.
 		
-.. figure:: /_static/img/SelectUser.png
+.. figure:: /_static/img/usermodule.jpg
 
-		Figure : Select User
-		
+		Figure : Select User module
 	
-	
-.. figure:: /_static/img/SearchUser.png
+.. figure:: /_static/img/addnewuser.jpg
 
-		Figure : Search for existing user
+		Figure : Add New user
 		
-	
-	
-.. figure:: /_static/img/AddNewUser.png
+Fill in the user details and then assign a user role.
 
-		Figure : Adding a new user
+.. figure:: /_static/img/userrole.jpg
+
+		Figure : Assign user role
+
+Select the organisation units of interest. When you select a county, all org units under the county are made available as well.
 		
-	
-	
-.. figure:: /_static/img/UserDetails.png
+.. figure:: /_static/img/userorgunit.jpg
 
-		Figure : Fill in new user details
+		Figure : Select org units
 
+.. figure:: /_static/img/usersave.jpg
 
-		
-.. figure:: /_static/img/AssignUserRole.png
-
-		Figure : Assign relevant user roles to new user
-
-
-		
-.. figure:: /_static/img/SelectOrgAndFacility.png
-
-		Figure : Select the parent organisation unit and the facility
-
-
-		
-.. figure:: /_static/img/SaveUserDetails.png
-
-		Figure : Click Add to save new user
+		Figure : Click Save to add user
 
 	
+Add user group
+~~~~~~~~~~~~~~
+
+Users are grouped into a user group for ease of sharing items in 3PM such as the dashboard. The pictorial below will quickly guide you through creating a user group and adding users into it.
+
+.. figure:: /_static/img/usergroup.jpg
+
+		Figure : User Group module
+
+.. figure:: /_static/img/addnewusergroup.jpg
+
+		Figure : Add new user group
+
+.. figure:: /_static/img/addusertogroup.jpg
+
+		Figure : Add user to user group
+
+.. figure:: /_static/img/saveusergroup.jpg
+
+		Figure : Save user group

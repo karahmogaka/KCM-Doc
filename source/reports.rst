@@ -13,8 +13,8 @@ The Report generating module in 3PM allows users to generate standard reports an
 
 This will navigate the user to Pivot Table and Data Visualizer respectively, from where they can generate a report following the pictorial procedure shown below.
 
-Report Generation Procedure
-~~~~~~~~~~~~~~~~	
+Report Generation
+~~~~~~~~~~~~~~~~~	
 	
 .. figure:: /_static/img/datadimension.jpg
 
@@ -32,37 +32,46 @@ Report Generation Procedure
 
 		Figure : Select Organisation Unit
 		
-.. figure:: /_static/img/SelectIP.jpg
+.. figure:: /_static/img/age.jpg
 
-		Figure : Change Layout
-		
+		Figure : Select Age Brackets
 	
-	
-.. figure:: /_static/img/SelectDataDimension.jpg
+Whenever you modify the dimensions, you are required to click *Update* button to have the changes reflected.
 
-		Figure : Select Data Dimension
-	
-.. figure:: /_static/img/SelectAnyOtherDimension.jpg
-
-		Figure : Select any other dimension of your choice
-		
-	
-	
-.. figure:: /_static/img/ClickUpdate.jpg
+.. figure:: /_static/img/update.jpg
 
 		Figure : Click Update
-		
-	
-	
-.. figure:: /_static/img/GeneratedReport.jpg
 
-		Figure : Generated Report
-		
-	
-	
-.. figure:: /_static/img/SavingReports.jpg
+.. figure:: /_static/img/layout.jpg
 
-		Figure : Save Report
+		Figure : Change Layout
+
+You can create a new pivot table, open an existing one, rename or delete an opened one on the Favorites menu.
+		
+.. figure:: /_static/img/save.jpg
+
+		Figure : Save as Favorite
+	
+Dashboards
+~~~~~~~~~~
+
+Once you are done generating a pivot table, you can navigate to the dashboard where you can add the saved favorite as a dashboard item.
+
+.. figure:: /_static/img/gotodashboard.jpg
+
+		Figure : Go to Dashboard
+
+You can only modify dashboard items for the dashboard you own or have edit rights. Therefore, to create a dashboard, follow the directions in the image below.
+
+.. figure:: /_static/img/adddashboard.jpg
+
+		Figure : Create a Dashboard
+	
+Once you create a dashboard, you can then add items such as favorites, users, resources, reports to the dashboard as shown below.
+
+.. figure:: /_static/img/adddashboarditem.jpg
+
+		Figure : Add Favorite to Dashboard
 		
 		
 		
