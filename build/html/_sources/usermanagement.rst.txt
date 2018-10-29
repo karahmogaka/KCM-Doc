@@ -32,7 +32,7 @@ The pictorial below shows the process of adding a new user and assigning a user 
 
 		Figure : Add New user
 		
-Fill in the user details and then assign a user role.
+Fill in the user details as required. Proceed then to assign a user role.
 
 .. figure:: /_static/img/userrole.jpg
 
@@ -52,7 +52,7 @@ Select the organisation units of interest. When you select a county, all org uni
 Add user group
 ~~~~~~~~~~~~~~
 
-Users are grouped into a user group for ease of sharing items in 3PM such as the dashboard. The pictorial below will quickly guide you through creating a user group and adding users into it.
+Users are grouped into a user group for ease of sharing items such as the dashboard in 3PM. The pictorial below will quickly guide you through creating a user group and adding users into it.
 
 .. figure:: /_static/img/usergroup.jpg
 
@@ -69,3 +69,5 @@ Users are grouped into a user group for ease of sharing items in 3PM such as the
 .. figure:: /_static/img/saveusergroup.jpg
 
 		Figure : Save user group
+
+Whenever you want to use the usergroup, just search for the user group using its name.
