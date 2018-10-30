@@ -1,7 +1,7 @@
 User Management
 =====================
 
-User Management feature in 3PM allows for multiiple users to access the system simultaneously. 
+User Management feature in 3PM allows for multiple users to access the system simultaneously. 
 Each user is given a defined set of authorities. 
 Examples of these authorities including data entry, performing data approval and deleting users. 
 
