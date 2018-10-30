@@ -24,27 +24,19 @@
 
   
 
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="3pm 2.0.1 documentation" href="index.html"/>
-        <link rel="next" title="3PM Servicedesk" href="support.html"/>
-        <link rel="prev" title="Data Entry" href="dataentry.html"/> 
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="User Management" href="usermanagement.html" />
+    <link rel="prev" title="Data Approval" href="dataapproval.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
@@ -92,11 +84,17 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started with 3PM</a></li>
-<li class="toctree-l1"><a class="reference internal" href="datasets.html">Datasets and Indicators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datasets.html">Datasets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dataentry.html">Data Entry</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Reports and Analytics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="support.html">3PM Servicedesk</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dataapproval.html">Data Approval</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Reports and Analytics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#report-generation">Report Generation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dashboards">Dashboards</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="usermanagement.html">User Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="support.html">3PM Troubleshooting</a></li>
 </ul>
 
             
@@ -108,7 +106,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+      <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">3pm</a>
@@ -116,9 +114,10 @@
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
 
@@ -162,22 +161,85 @@
             
   <div class="section" id="reports-and-analytics">
 <h1>Reports and Analytics<a class="headerlink" href="#reports-and-analytics" title="Permalink to this headline">¶</a></h1>
+<p>The Report generating module in 3PM allows users to generate standard reports and visualize them. Reports can be generated using the Pivot Table which generates tabular reports, and the Data Visualizer which generates reports in form of charts eg. bar graphs and line graphs. A user can access either the Data Visualizer or the Pivot Table from the Apps Menu as shown below.</p>
+<div class="figure" id="id1">
+<img alt="_static/img/pivottableapp.jpg" src="_static/img/pivottableapp.jpg" />
+<p class="caption"><span class="caption-text">Figure 1: Select Pivot Table</span></p>
+</div>
+<div class="figure" id="id2">
+<img alt="_static/img/visualizer.jpg" src="_static/img/visualizer.jpg" />
+<p class="caption"><span class="caption-text">Figure 2: Select Data Visualizer</span></p>
+</div>
+<p>This will navigate the user to Pivot Table and Data Visualizer respectively, from where they can generate a report following the pictorial procedure shown below.</p>
+<div class="section" id="report-generation">
+<h2>Report Generation<a class="headerlink" href="#report-generation" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id3">
+<img alt="_static/img/datadimension.jpg" src="_static/img/datadimension.jpg" />
+<p class="caption"><span class="caption-text">Figure 3: Select Data Dimension</span></p>
+</div>
+<div class="figure" id="id4">
+<img alt="_static/img/period.jpg" src="_static/img/period.jpg" />
+<p class="caption"><span class="caption-text">Figure : Select Period</span></p>
+</div>
+<div class="figure" id="id5">
+<img alt="_static/img/im.jpg" src="_static/img/im.jpg" />
+<p class="caption"><span class="caption-text">Figure : Select Implementing Mechanism</span></p>
+</div>
+<div class="figure" id="id6">
+<img alt="_static/img/orgunit.jpg" src="_static/img/orgunit.jpg" />
+<p class="caption"><span class="caption-text">Figure : Select Organisation Unit</span></p>
+</div>
+<div class="figure" id="id7">
+<img alt="_static/img/age.jpg" src="_static/img/age.jpg" />
+<p class="caption"><span class="caption-text">Figure : Select Age Brackets</span></p>
+</div>
+<p>Whenever you modify the dimensions, you are required to click <em>Update</em> button to have the changes reflected.</p>
+<div class="figure" id="id8">
+<img alt="_static/img/update.jpg" src="_static/img/update.jpg" />
+<p class="caption"><span class="caption-text">Figure : Click Update</span></p>
+</div>
+<div class="figure" id="id9">
+<img alt="_static/img/layout.jpg" src="_static/img/layout.jpg" />
+<p class="caption"><span class="caption-text">Figure : Change Layout</span></p>
+</div>
+<p>You can create a new pivot table, open an existing one, rename or delete an opened one on the Favorites menu.</p>
+<div class="figure" id="id10">
+<img alt="_static/img/save.jpg" src="_static/img/save.jpg" />
+<p class="caption"><span class="caption-text">Figure : Save as Favorite</span></p>
+</div>
+</div>
+<div class="section" id="dashboards">
+<h2>Dashboards<a class="headerlink" href="#dashboards" title="Permalink to this headline">¶</a></h2>
+<p>Once you are done generating a pivot table, you can navigate to the dashboard where you can add the saved favorite as a dashboard item.</p>
+<div class="figure" id="id11">
+<img alt="_static/img/gotodashboard.jpg" src="_static/img/gotodashboard.jpg" />
+<p class="caption"><span class="caption-text">Figure : Go to Dashboard</span></p>
+</div>
+<p>You can only modify dashboard items for the dashboard you own or have edit rights. Therefore, to create a dashboard, follow the directions in the image below.</p>
+<div class="figure" id="id12">
+<img alt="_static/img/adddashboard.jpg" src="_static/img/adddashboard.jpg" />
+<p class="caption"><span class="caption-text">Figure : Create a Dashboard</span></p>
+</div>
+<p>Once you create a dashboard, you can then add items such as favorites, users, resources, reports to the dashboard as shown below.</p>
+<div class="figure" id="id13">
+<img alt="_static/img/adddashboarditem.jpg" src="_static/img/adddashboarditem.jpg" />
+<p class="caption"><span class="caption-text">Figure : Add Favorite to Dashboard</span></p>
+</div>
+</div>
 </div>
 
 
            </div>
-           <div class="articleComments">
-            
-           </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="support.html" class="btn btn-neutral float-right" title="3PM Servicedesk" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="usermanagement.html" class="btn btn-neutral float-right" title="User Management" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="dataentry.html" class="btn btn-neutral" title="Data Entry" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="dataapproval.html" class="btn btn-neutral" title="Data Approval" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -186,11 +248,11 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2017, intellisoft.
+        &copy; Copyright 2018, IntelliSOFT
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -205,35 +267,24 @@
 
   
 
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'2.0.1',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true,
-            SOURCELINK_SUFFIX: '.txt'
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
 
   
 
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
+  <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-   
+  </script> 
 
 </body>
 </html>

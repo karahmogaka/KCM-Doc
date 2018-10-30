@@ -52,8 +52,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = '3pm'
-copyright = '2017, intellisoft'
-author = 'felix, patrick'
+copyright = '2018, IntelliSOFT'
+author = 'felix, bsiele'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -99,7 +99,7 @@ html_theme = 'sphinx_rtd_theme'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['../build/html/_static']
 
 
 # -- Options for HTMLHelp output ------------------------------------------
@@ -133,7 +133,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, '3pm.tex', '3pm Documentation',
-     'felix, patrick', 'manual'),
+     'felix, bsiele', 'manual'),
 ]
 
 
@@ -154,7 +154,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, '3pm', '3pm Documentation',
-     author, '3pm', 'One line description of project.',
+     author, '3pm', 'A platform for monitoring partner progress.',
      'Miscellaneous'),
 ]
 

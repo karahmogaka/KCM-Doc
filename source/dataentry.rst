@@ -1,39 +1,42 @@
 ﻿Data Entry
 ==========
 
-The 3PM data entry module is designed in such a way that an Implementing Partner can only enter their data. After logging into the system, hover mouse pointer/click on the Apps icon on the far left as shown on the figure below. On the dropdown that appears, click on Data Entry icon.
+Dataset selection
+-----------------
 
-.. figure:: /_static/img/dataentrymenu.png
+Data entry in 3PM is the process of entering data into the various datasets. It is a simple process which involves accessing the Data Entry app.
 
-		Figure : Apps Menu
+.. figure:: /_static/img/dataentryapp.png
 
-This navigates to the data entry page, as shown on the figure below. For data entry forms to appear, you will be required to first select an organization unit/facility you are reporting for on the left panel, the dataset, reporting period and the implementing partner you are reporting for, which comes up after selecting the organization unit, Dataset and period that the user is reporting for.
+	Figure 1: Data Entry app
 
-.. figure:: /_static/img/formorgs.png
+When the data entry page has loaded, you select the organization unit from the left pane. If you intend to report for a facility, select the facility and if you intend to report for a community, select the ward.
 
-		Figure : Data entry form
+Select **ward** to enter data on the Community Results Dataset.
 
-Data Entry Procedure
-~~~~~~~~~~~~~~~~
+.. figure:: /_static/img/communitydataset.png
 
-.. figure:: /_static/img/selectfacility.png
+	Figure 2: Community dataset
 
-		Figure : Select Facility
+Select **facility** to enter data on the Facility Results Dataset.
 
+.. figure:: /_static/img/facilitydataset.png
 
+	Figure 3: Facility dataset
 
-.. figure:: /_static/img/selectdataset.png
+Go ahead and select the **Period** which is the month and the **Implementing Mechanism** you are reporting for.
 
-		Figure : Select Data set
+.. figure:: /_static/img/dataset.png
 
+	Figure 4: Period and IM
 
+Data entry forms
+----------------
 
-.. figure:: /_static/img/selectperiod.png
+Based on your selections, the data entry form is rendered on the page. You can perform data entry on the reporting points of your interest. You can navigate through **HTS, CT, KP** and **Lab** forms using the tabs on the left side of the inner pane.
 
-		Figure : Select Period
+When you enter data, the entry cell turns yellow when waiting to be saved on the server, green when it is saved and red when saving failed. Values that had been entered previously will be displayed on the dataset.
 
+.. figure:: /_static/img/forms.png
 
-
-.. figure:: /_static/img/selectimplpartner.png
-
-		Figure : Select Implementing Partner
+	Figure 5: Data Entry form
