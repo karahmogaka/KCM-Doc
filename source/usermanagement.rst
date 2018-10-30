@@ -52,7 +52,7 @@ Select the organisation units of interest. When you select a county, all org uni
 Add user group
 ~~~~~~~~~~~~~~
 
-Users are grouped into a user group for ease of sharing items such as the dashboard in 3PM. The pictorial below will quickly guide you through creating a user group and adding users into it.
+Users are grouped into a user group for ease of sharing items such as the dashboard in 3PM. The pictorial below will quickly guide you through creating a user group and adding users to it.
 
 .. figure:: /_static/img/usergroup.jpg
 
