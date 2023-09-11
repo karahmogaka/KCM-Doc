@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -8,28 +7,15 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>User Management &mdash; 3pm 2.0.1 documentation</title>
-  
-
-  
-  
-  
-  
-
-  
-
-  
-  
-    
-
+  <title>Datasets &mdash; KCM Dashboards</title>
   
 
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="3PM Troubleshooting" href="support.html" />
-    <link rel="prev" title="Reports and Analytics" href="reports.html" /> 
+    <link rel="next" title="Data Entry" href="dataentry.html" />
+    <link rel="prev" title="Getting Started with KCM Dashboards" href="gettingstarted.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -48,21 +34,17 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> 3pm
+            <a href="index.html" class="icon icon-home"> KCM Dashboards
           
-
           
           </a>
 
-          
-            
-            
+         
+        
               <div class="version">
-                2
+            
               </div>
             
-          
-
           
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -77,24 +59,24 @@
 
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
-            
-            
               
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="datasets.html">Datasets</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Accessing the System</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dataentry.html">Grants</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Datasets</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dataentry.html">Data Entry</a></li>
-<li class="toctree-l1"><a class="reference internal" href="dataapproval.html">Data Approval</a></li>
-<li class="toctree-l1"><a class="reference internal" href="reports.html">Reports and Analytics</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">User Management</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#add-user">Add user</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#add-user-group">Add user group</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="support.html">3PM Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reports.html">Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="support.html">Data Import and Export</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="dataentry.html">User Administration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reports.html">Data Administration </a></li>
+<li class="toctree-l1"><a class="reference internal" href="support.html">Maintainance</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">General SEttings</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Clearing Browser Cache</a></li>
 </ul>
 
             
@@ -109,163 +91,79 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">3pm</a>
+          <a href="index.html">KCM Dashboards</a>
         
       </nav>
-
-
-      <div class="wy-nav-content">
-        
-        <div class="rst-content">
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
-  <ul class="wy-breadcrumbs">
-    
-      <li><a href="index.html">Docs</a> &raquo;</li>
-        
-      <li>User Management</li>
-    
-    
-      <li class="wy-breadcrumbs-aside">
-        
-            
-            <a href="_sources/usermanagement.rst.txt" rel="nofollow"> View page source</a>
-          
-        
-      </li>
-    
-  </ul>
-
   
   <hr/>
-</div>
+
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
   <div class="section" id="user-management">
-<h1>User Management<a class="headerlink" href="#user-management" title="Permalink to this headline">¶</a></h1>
-<p>User Management feature in 3PM allows for multiiple users to access the system simultaneously.
-Each user is given a defined set of authorities.
-Examples of these authorities including data entry, performing data approval and deleting users.</p>
-<p>These authorities are assigned to users through user roles. A user role is a set of defined authorities.
-We have four user roles on 3PM as follows:</p>
-<ol class="arabic simple">
-<li>Read Only - for viewing but not making any changes, addition or deletion of data.</li>
-<li>Data entry -  for monthly reporting through the datasets.</li>
-<li>Data Approval - for approving data entered per Implementing Mechanism.</li>
-<li>User Management - for creation, deletion and modification of users.</li>
-</ol>
-<p>The user management functionality is accessible through Users app;</p>
+<h1>User Administration<a class="headerlink" href="#user-management" title="Permalink to this headline">¶</a></h1>
+<h3>User Management<a class="headerlink" href="#user-management" title="Permalink to this headline">¶</a></h3>
+
 <div class="figure" id="id1">
 <img alt="_static/img/users.jpg" src="_static/img/users.jpg" />
-<p class="caption"><span class="caption-text">Figure : Users app</span></p>
+<p class="caption"><span class="caption-text">Figure : Users Management</span></p>
 </div>
+<p> User management refers to the process of creating, configuring, and managing user accounts within the DHIS2 system. Smome of the key user management features in DHIS2 include:</p>
+
+<ol class="arabic simple">
+<li>User Roles and Permissions: DHIS2 allows administrators to define user roles with specific permissions. These roles can range from data entry operators to data managers and administrators. Permissions can be granular, specifying which data elements, datasets, and organizational units a user can access and what actions they can perform.</li>
+
+<li>User Registration: Administrators can create new user accounts and assign them to appropriate user roles. Users can also register themselves if allowed, with or without approval from administrators.</li>
+<li>Password Management: Users can change their passwords and reset them if forgotten. Password policies, such as complexity requirements and expiration periods, can be configured to enhance security.</li>
+<li>User Groups: Users can be grouped together for easier management. For example, you can create groups for specific programs or departments. Group memberships can be used to assign permissions collectively.</li>
+<li>User Profile Management: Users can update their profiles, including personal information, contact details, and preferences. Profile data can be used for user identification and communication.</li>
+<li>User Auditing: DHIS2 keeps an audit trail of user activities, including logins, data entry, and other system interactions. Auditing helps in tracking user actions and maintaining data integrity.</li>
+<li>Multi-Factor Authentication (MFA). DHIS2 can be configured to support MFA for enhanced security. Users may need to provide an additional authentication factor (e.g., a one-time code from a mobile app) during login.</li>
+<li>User Import and Export:Administrators can import and export user data, making it easier to manage large numbers of users as well as assign import and export rights to specific users.</li>
+</ol>
+
+
 <div class="section" id="add-user">
-<h2>Add user<a class="headerlink" href="#add-user" title="Permalink to this headline">¶</a></h2>
-<p>The pictorial below shows the process of adding a new user and assigning a user role.</p>
+<h3>Adding New Users<a class="headerlink" href="#add-user" title="Permalink to this headline">¶</a></h3>
+
+<ol class="arabic simple">
+<li>In the User Administration section, look for an option to <strong>"Add New User"</strong> .Click on this option to start the user creation process.</li>
+<li>Fill in the user's details. This typically includes:</li>
 <div class="figure" id="id2">
 <img alt="_static/img/usermodule.jpg" src="_static/img/usermodule.jpg" />
 <p class="caption"><span class="caption-text">Figure : Select User module</span></p>
 </div>
-<div class="figure" id="id3">
-<img alt="_static/img/addnewuser.jpg" src="_static/img/addnewuser.jpg" />
-<p class="caption"><span class="caption-text">Figure : Add New user</span></p>
-</div>
-<p>Fill in the user details as required. Proceed then to assign a user role.</p>
-<div class="figure" id="id4">
-<img alt="_static/img/userrole.jpg" src="_static/img/userrole.jpg" />
-<p class="caption"><span class="caption-text">Figure : Assign user role</span></p>
-</div>
-<p>Select the organisation units of interest. When you select a county, all org units under the county are made available as well.</p>
-<div class="figure" id="id5">
-<img alt="_static/img/userorgunit.jpg" src="_static/img/userorgunit.jpg" />
-<p class="caption"><span class="caption-text">Figure : Select org units</span></p>
-</div>
-<div class="figure" id="id6">
-<img alt="_static/img/usersave.jpg" src="_static/img/usersave.jpg" />
-<p class="caption"><span class="caption-text">Figure : Click Save to add user</span></p>
-</div>
-</div>
+
+<li>User Roles and Permissions: Assign roles and permissions to the new user. DHIS2 usually allows you to select from predefined roles or create custom roles with specific permissions.Roles define what actions the user can perform within DHIS2, such as data entry, data analysis, or administrative tasks. Assign roles that align with the user's responsibilities and job function..</li>
+<li>Organization Units and Data Access: Specify the organization units or data sets that the user should have access to. This step ensures that the user can work with the relevant health facilities, geographic areas, or datasets. You can assign specific organization units or grant access based on user roles.</li>
+<li>User Group (Optional): If your DHIS2 instance uses user groups, you can add the new user. User groups are helpful for managing users collectively, especially if you have multiple teams or departments using DHIS2.</li>
+<li>Save and Confirm: After entering all the required information, click the <strong>"Save"</strong> or <strong>"Create User" </strong> button to confirm the new user's creation.</li>
+
+</ol>
 <div class="section" id="add-user-group">
-<h2>Add user group<a class="headerlink" href="#add-user-group" title="Permalink to this headline">¶</a></h2>
-<p>Users are grouped into a user group for ease of sharing items such as the dashboard in 3PM. The pictorial below will quickly guide you through creating a user group and adding users into it.</p>
-<div class="figure" id="id7">
-<img alt="_static/img/usergroup.jpg" src="_static/img/usergroup.jpg" />
-<p class="caption"><span class="caption-text">Figure : User Group module</span></p>
-</div>
-<div class="figure" id="id8">
-<img alt="_static/img/addnewusergroup.jpg" src="_static/img/addnewusergroup.jpg" />
-<p class="caption"><span class="caption-text">Figure : Add new user group</span></p>
-</div>
-<div class="figure" id="id9">
-<img alt="_static/img/addusertogroup.jpg" src="_static/img/addusertogroup.jpg" />
-<p class="caption"><span class="caption-text">Figure : Add user to user group</span></p>
-</div>
-<div class="figure" id="id10">
-<img alt="_static/img/saveusergroup.jpg" src="_static/img/saveusergroup.jpg" />
-<p class="caption"><span class="caption-text">Figure : Save user group</span></p>
-</div>
-<p>Whenever you want to use the usergroup, just search for the user group using its name.</p>
-</div>
-</div>
+<h3>User Roles<a class="headerlink" href="#add-user-group" title="Permalink to this headline">¶</a></h3>
+<p>A user role is a collection of specific permissions known as authorities. These authorities define what tasks a user with that role can perform within the system. </p>
+<p>Here's a breakdown of how user roles work in DHIS2:</p>
+<ol class="arabic simple">
+<li><Strong>Superusers: </Strong> This is an administrator or user account with the highest level of system privileges, enabling them to perform extensive tasks such as system configuration, user management, data management, system maintenance, and access control. These accounts should be assigned appropriately due to their extensive authority</li>
+<li><Strong>Multiple User Roles: </Strong>  A user can be assigned multiple user roles. When a user has multiple roles, their total set of authorities is the combination of all authorities and data sets associated with those roles. This means that users can have a versatile set of permissions based on the roles assigned to them.</li>
+<li><Strong>Data Set Association: </Strong> DHIS2 allows administrators to mix and match user roles to suit specific purposes. Instead of creating entirely new roles for every unique requirement, administrators can assign existing roles to users to grant them the necessary permissions for their tasks.</li>
+<li><Strong>Data Set Association: </Strong> Each user role is associated with a specific collection of data sets. This relationship has implications for the Data Entry app. Users can only enter data for the data sets that are registered for their user role. </li>
 
 
-           </div>
-           
-          </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="support.html" class="btn btn-neutral float-right" title="3PM Troubleshooting" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="reports.html" class="btn btn-neutral" title="Reports and Analytics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
+</ol>
+
+</div>
+
+<div class="section" id="add-user-group">
+<h3>User Groups<a class="headerlink" href="#add-user-group" title="Permalink to this headline">¶</a></h3>
+
+<p>This refers to collections of individual user accounts organized together for administrative or access control purposes.They are particularly useful in large organizations with many users or when different teams or departments need to collaborate within DHIS2. User groups are a way to manage and grant permissions to multiple users simultaneously.</p>
+
   
 
   <hr/>
 
-  <div role="contentinfo">
-    <p>
-        &copy; Copyright 2018, IntelliSOFT
-
-    </p>
-  </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
-
-</footer>
-
-        </div>
-      </div>
-
-    </section>
-
-  </div>
-  
-
-
-  
-
-    
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
         <script type="text/javascript" src="_static/jquery.js"></script>
