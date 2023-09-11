@@ -1,73 +1,31 @@
-User Management
+USER ADMINISTRATION
 =====================
+.. figure::
+Figure : 
 
-User Management feature in 3PM allows for multiple users to access the system simultaneously. 
-Each user is given a defined set of authorities. 
-Examples of these authorities including data entry, performing data approval and deleting users. 
-
-These authorities are assigned to users through user roles. A user role is a set of defined authorities. 
-We have four user roles on 3PM as follows:
-
-#. Read Only - for viewing but not making any changes, addition or deletion of data.
-#. Data entry -  for monthly reporting through the datasets.
-#. Data Approval - for approving data entered per Implementing Mechanism.
-#. User Management - for creation, deletion and modification of users.
-
-The user management functionality is accessible through Users app;
-
-.. figure:: /_static/img/users.jpg
-
-		Figure : Users app
-
-Add user
+User Management
 ~~~~~~~~
 
-The pictorial below shows the process of adding a new user and assigning a user role.
-		
-.. figure:: /_static/img/usermodule.jpg
+Simultaneous Access: Multiple users can access DHIS2 at the same time, allowing for collaborative work and data management.
+User, User Roles, and User Groups: You have the flexibility to create and manage user accounts, user roles, and user groups to organize and control access effectively.
+User authorities can be assigned at different levels. You can grant specific authorities to user groups or individual users through user roles.
+You can create multiple user roles, each with its own set of authorities. This allows for precise control over user permissions based on their responsibilities.
+Assign user roles to users based on their roles and responsibilities within the organization. This defines what they can do in DHIS2.
+You can also assign each user to specific organizational units. This ties users to specific areas or entities they are responsible for, enabling them to enter data for those assigned units.
 
-		Figure : Select User module
-	
-.. figure:: /_static/img/addnewuser.jpg
 
-		Figure : Add New user
-		
-Fill in the user details as required. Proceed then to assign a user role.
+User Roles
+~~~~~~~~
+A user role is a collection of specific permissions known as authorities. These authorities define what tasks a user with that role can perform within the system. 
+Here's a breakdown of how user roles work in DHIS2:
 
-.. figure:: /_static/img/userrole.jpg
-
-		Figure : Assign user role
-
-Select the organisation units of interest. When you select a county, all org units under the county are made available as well.
-		
-.. figure:: /_static/img/userorgunit.jpg
-
-		Figure : Select org units
-
-.. figure:: /_static/img/usersave.jpg
-
-		Figure : Click Save to add user
+#. Superusers: This is an administrator or user account with the highest level of system privileges, enabling them to perform extensive tasks such as system configuration, user management, data management, system maintenance, and access control. These accounts should be assigned appropriately due to their extensive authority.
+#. Multiple User Roles: A user can be assigned multiple user roles. When a user has multiple roles, their total set of authorities is the combination of all authorities and data sets associated with those roles. This means that users can have a versatile set of permissions based on the roles assigned to them.
+#. DHIS2 allows administrators to mix and match user roles to suit specific purposes. Instead of creating entirely new roles for every unique requirement, administrators can assign existing roles to users to grant them the necessary permissions for their tasks.
+#. Data Set Association: Each user role is associated with a specific collection of data sets. This relationship has implications for the Data Entry app. Users can only enter data for the data sets that are registered for their user role. 
 
 	
-Add user group
+User Groups
 ~~~~~~~~~~~~~~
 
-Users are grouped into a user group for ease of sharing items such as the dashboard in 3PM. The pictorial below will quickly guide you through creating a user group and adding users to it.
-
-.. figure:: /_static/img/usergroup.jpg
-
-		Figure : User Group module
-
-.. figure:: /_static/img/addnewusergroup.jpg
-
-		Figure : Add new user group
-
-.. figure:: /_static/img/addusertogroup.jpg
-
-		Figure : Add user to user group
-
-.. figure:: /_static/img/saveusergroup.jpg
-
-		Figure : Save user group
-
-Whenever you want to use the usergroup, just search for the user group using its name.
+This refers to collections of individual user accounts organized together for administrative or access control purposes. User groups are a way to manage and grant permissions to multiple users simultaneously.
