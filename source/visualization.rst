@@ -46,38 +46,19 @@ Creating and editing visualizations
 Dashboards
 -----------------
 
-#. Create a New Dashboard
-Click on the "Create New" or "Add Dashboard" button to create a new dashboard.
-Provide a name and description for your dashboard. This information helps users understand the purpose of the dashboard. (Description is optional)
+#. Create a New Dashboard. Click on the "Create New" or "Add Dashboard" button to create a new dashboard. Provide a name and description for your dashboard. This information helps users understand the purpose of the dashboard. (Description is optional)
 
  
-#. Add Layout and Structure
-Dashboards typically consist of one or more layout elements, such as rows and columns, where you can arrange visualizations and reports. Start by adding these layout elements to your dashboard.
+#. Add Layout and Structure. Dashboards typically consist of one or more layout elements, such as rows and columns, where you can arrange visualizations and reports. Start by adding these layout elements to your dashboard. Layout Options: In a Freeflow layout, you have the flexibility to rearrange added items by clicking and dragging them with your mouse to your preferred positions. Additionally, you can adjust the size of items by clicking on the drag handle located in the lower right corner of the item and then dragging it to your desired dimensions. If you opt for a Fixed Columns layout, you can specify the number of columns you wish to include in your dashboard. The dashboard will automatically organize the items for you within these columns. However, in this layout, manual repositioning and resizing of items aren't possible since their placements are determined by the fixed column structure you've chosen.
 
-   Layout Options
- 
- In a Freeflow layout, you have the flexibility to rearrange added items by clicking and dragging them with your mouse to your preferred positions. Additionally, you can adjust the size of items by clicking on the drag handle located in the lower right corner of the item and then dragging it to your desired dimensions.
 
- If you opt for a Fixed Columns layout, you can specify the number of columns you wish to include in your dashboard. The dashboard will automatically organize the items for you within these columns. However, in this layout, manual repositioning and resizing of items aren't possible since their placements are determined by the fixed column structure you've chosen.
+#. Add Visualizations and Reports. Within each layout element, you can add visualizations and reports. Click on the "Add Item" select the type of content you want to add (e.g., charts, maps, tables). Choose the specific visualizations or reports you want to include in that section. You can select from existing visualizations you've created or create new ones.
 
- 
+#. Configure Visualization Settings. Customize each visualization's settings, including colors, labels, legends, and any other specific options relevant to the type of visualization you're using.
 
-#. Add Visualizations and Reports
-Within each layout element, you can add visualizations and reports. Click on the "Add Item" select the type of content you want to add (e.g., charts, maps, tables).
-Choose the specific visualizations or reports you want to include in that section. You can select from existing visualizations you've created or create new ones.
+#. Apply Filters (Optional). By default, users can filter dashboard items using any dimension that has been defined within the DHIS2 instance. However, you can customize these dashboard filter settings by clicking on the "Filter Settings" option for a specific dashboard.To specify which filters should be available, you can choose the "Only allow filtering by selected dimensions" option. From there, you can handpick the filters(grant) you want to make accessible on the dashboard. Period and Organization Unit are automatically included by default, but you have the flexibility to remove them if you prefer. 
 
-#. Configure Visualization Settings
-Customize each visualization's settings, including colors, labels, legends, and any other specific options relevant to the type of visualization you're using.
+#. Save the Dashboard. Once you've added and configured all the visualizations and reports, save your dashboard to store it for future use.
 
-#. Apply Filters (Optional)
-By default, users can filter dashboard items using any dimension that has been defined within the DHIS2 instance. However, you can customize these dashboard filter settings by clicking on the "Filter Settings" option for a specific dashboard.
-
- 
-To specify which filters should be available, you can choose the "Only allow filtering by selected dimensions" option. From there, you can handpick the filters(grant) you want to make accessible on the dashboard. Period and Organization Unit are automatically included by default, but you have the flexibility to remove them if you prefer. 
-
-#. Save the Dashboard
-Once you've added and configured all the visualizations and reports, save your dashboard to store it for future use.
-
-#. Share and Assign Permissions
-Determine who can access the dashboard and at what level of access (view, edit, or share). Assign permissions to users or user groups accordingly.
+#. Share and Assign Permissions. Determine who can access the dashboard and at what level of access (view, edit, or share). Assign permissions to users or user groups accordingly.
 
