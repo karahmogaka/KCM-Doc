@@ -14,7 +14,7 @@ Key features and functions of the Data Visualizer App:
 * Data Filters: The app allows users to apply filters to the data, enabling them to focus on specific time periods, geographical regions, or other criteria.
 * Interactivity: Some visualizations created with the Data Visualizer App can be interactive, allowing users to hover over data points for more information or drill down into the data.
 * Export and Sharing: Users can export their visualizations as images or PDFs, making it easy to share the results with colleagues or stakeholders.
-Dashboard Integration: Visualizations created with the Data Visualizer App can be integrated into DHIS2 dashboards, providing a centralized view of key health indicators and data trends.
+* Dashboard Integration: Visualizations created with the Data Visualizer App can be integrated into DHIS2 dashboards, providing a centralized view of key health indicators and data trends.
 
 
 Creating and editing visualizations
