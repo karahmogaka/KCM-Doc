@@ -56,6 +56,7 @@ master_doc = 'index'
 # General information about the project.
 project = 'KCMDashboards'
 copyright = '2018, IntelliSOFT'
+author = 'felix'
 
 
 # The version info for the project you're documenting, acts as replacement for
